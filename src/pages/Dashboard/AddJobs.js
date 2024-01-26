@@ -25,7 +25,6 @@ const AddJobs = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(isEditing);
 
     if(!position || !company || !jobLocation){
       toast.error("Please Fill Out All Fields")

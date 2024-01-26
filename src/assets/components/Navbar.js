@@ -16,7 +16,7 @@ const Navbar = () => {
     dispatch(toggleSidebar())
   }
   const [showLogout, setShowLogout] = useState(false)
-
+  
   return (
     <Wrapper>
       <div className="nav-center">

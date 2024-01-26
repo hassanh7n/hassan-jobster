@@ -36,7 +36,12 @@ const handleSubmit = (e) => {
         <h4>search form</h4>
         <div className="from-center">
           {/* search position */}
-
+          {/* <FormRow
+            type='text'
+            name='search'
+            value={search}
+            handleChange={handleSearch}
+          /> */}
           <FormRow 
           type='text'
           name='search'
