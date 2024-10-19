@@ -18,7 +18,6 @@ const { isLoading, search, searchStatus, searchType, sort, sortOptions } =
   const { jobTypeOptions, statusOptions } = useSelector((store) => store.job);
 
 const handleSearch = (e) => {
-  if(isLoading) return;
   dispatch(handleChange({name : e.target.name, value : e.target.value}));
 
 };
